@@ -1,6 +1,6 @@
 import os, telebot, yt_dlp
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-TOKEN = "8211303621:AAFzzu43Pn1v-2OYYk7OlDZ9PxXylbxVWNU"
+TOKEN = os.environ.get("BOT_TOKEN")
 CHANNEL_ID = "@hammel5Bblash"
 CHANNEL_LINK = "https://t.me/hammel5Bblash"
 bot = telebot.TeleBot(TOKEN)
